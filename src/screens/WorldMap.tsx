@@ -23,8 +23,7 @@ const WorldMap: FunctionComponent = () => {
     "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
 
   const setColour = (geo: geoObject): string => {
-    //console.log(geo.properties.name);
-    return "grey";
+    return userStore.selectedCountry === geo.properties.name ? "blue" : "grey";
   };
 
   return (
@@ -38,7 +37,22 @@ const WorldMap: FunctionComponent = () => {
                 geography={geo}
                 fill={setColour(geo)}
                 onMouseDown={() => {
-                  console.log(geo.properties.name);
+                  userStore.selectCountry(geo.properties.name);
+                  console.log(userStore.selectedCountry);
+                }}
+                style={{
+                  default: {
+                    fill: "#D6D6DA",
+                    outline: "none",
+                  },
+                  hover: {
+                    fill: "#F53",
+                    outline: "none",
+                  },
+                  pressed: {
+                    fill: "#F53",
+                    outline: "none",
+                  },
                 }}
               />
             ))
