@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import HomeScreen from "./screens/homeScreen";
+import WorldMap from "./screens/WorldMap";
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <HomeScreen></HomeScreen>
+      <WorldMap></WorldMap>
     </div>
   );
 }
