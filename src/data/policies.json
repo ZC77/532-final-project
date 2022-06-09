@@ -1,0 +1,149 @@
+[
+  {
+    "Country": "New Zealand",
+    "Ambition 1": "Nationwide coverage of fast/rapid direct current charging stations every 75km across state highway networks",
+    "Target 1": "100% share of ZEVs in urban bus sales by 2025 and 100% stock by 2035",
+    "Target 2": "64 000 EV stock in passenger cars by 2021",
+    "Target 3": "CO2 emissions standard for imported passenger LDVs: starting in 2023, targets reduce approximately 60% by 2027 with a 2027 target of 63 gCO2/km (passenger vehicles) and 87 g CO2/km (commercial vehicles) (WLTP)",
+    "Ambition 2": "30% of ZEVs in new truck and bus sales by 2030, 100% by 2040"
+  },
+  {
+    "Country": "China",
+    "Ambition 1": ">80% NEVs in new (or replaced) public fleets (e.g. buses, taxis, delivery vehicles) in pilot zones and key air pollution regions by 2025. Ambition: 100% electrification of the public fleet stock by 2035",
+    "Ambition 2": "Charging infrastructure sufficient to meet the needs of more than 20 million NEVs by 2025",
+    "Ambition 3": "60% of expressway service areas to have rapid charging by 2025",
+    "Ambition 4": "13 million slow charging stations and 0.8 million fast charging stations by 2025. 15 million (cumulative) slow charging stations and 1.46 million (cumulative) fast charging stations by 2035",
+    "Ambition 5": "1 000 battery swap stations and production of more than 100 000 vehicles capable of battery swapping",
+    "Legislation 1": "Stage III National Standard of 10.6 – 41.5 L/100 km for new type approvals (July 2019) and all sales and registrations (July 2021) for heavy commercial vehicles (depending on vehicle class and weight). Target: reduce fuel consumption by 14 - 16% compared to Stage II",
+    "Legislation 2": "4.6 L/100 km (WLTP) or 4.0 L/100km (NEDC) by 2025 for passenger LDVs",
+    "Target 1": "New Energy Vehicle (NEV) mandate sets annual ZEV credit targets for OEMs to reach as a percentage of annual vehicle sales: 12% NEV credit for passenger LDV sales by 2020 (with each EV sold eligible to earn multiple credits depending on the all-electric range, battery density and vehicle efficiency). Targets are 14% in 2021, 16% in 2022 and 18% in 2023 (with gradual tightening of credits to 2023)",
+    "Ambition 6": "Average electricity consumption of new passenger BEVs ≤ 12.0 kWh/100 km by 2025",
+    "Target 2": "20% share of NEVs in LDV and HDV sales by 2025",
+    "Ambition 7": "72% share of NEVs in national urban public transport and 20% in logistics distribution by 2025",
+    "Ambition 8": "100% share of EVs in passenger LDV sales by 2035 (of which 50% are NEVs and 95% of those are BEVs). Ambition: 100 000 FCEV sales in LDVs and HDVs by 2025 and around 1 million stock in the 2030-35 period"
+  },
+  {
+    "Country": "United States",
+    "Target 1": "500 000 charging stations",
+    "Legislation 1": "Phase 2 CO2 emission standard: 432-627 g CO2/bhp-hr (tractors, vocational vehicles and spark ignition engines) and 48.3-413 g CO2/tonne-mile (all other) for various heavy commercial vehicles, which reduces CO2 emissions by 5-27% in 2027 (depending on vehicle category and weight) compared to 2017. Proposed changes to MY 2027 would result in a more stringent standard, reducing CO2 emissions by an additional 1.5% compared to the original standard in 2027 for vocational vehicles and day cab tractors and to create new CO2 emissions standard for MY 2030",
+    "Legislation 2": "Standards to reduce GHG emissions from LDVs by 1.5% per year from MY 2021/2022, 10% by MY 2022/2023, 5% by MY 2023/2024 and 6.6% by MY 2025/2026",
+    "Legislation 3": "Corporate Average Fuel Economy (CAFE) standard: improve the fleet average fuel economy of LDVs by 1.5% for MY 2022/2023, 8% for MY 2024/2025 and by 10% for MY 2026",
+    "Ambition 1": "50% share of EVs in passenger LDV sales by 2030",
+    "Ambition 2": "100% share of ZEVs in federal government vehicle procurement by 2035, including 100% share of ZEVs in light-duty vehicle acquisitions by 2027"
+  },
+  {
+    "Country": "Japan",
+    "Target 1": "150 000 EV charging points (including 30 000 fast chargers) and 1000 hydrogen refuelling stations by 2030",
+    "Target 2": "1 200 fuel cell urban bus stock by 2030",
+    "Legislation 1": "Fuel economy standard: 6.52 - 7.63 km/L (JC08) by 2025 (depending on vehicle class and weight) for heavy commercial vehicles. Target to reduce fuel consumption by 13.4 - 14.3% relative to 2015 standard",
+    "Legislation 2": "Fuel economy standard: 25.4 km/L for passenger LDVs by 2030, equivalent to a 32.4% improvement relative to 2016 and includes EVs. Well-to-wheel methodology approach adopted that includes grid electricity energy consumption for EVs",
+    "Ambition 1": "Carbon-neutral manufacturing including production, use and disposal of cars by 2050",
+    "Target 3": "20 - 30% share of BEVs and PHEVs, 30 - 40% share of HEVs and 3% share of FCEVs in passenger LDV sales by 2030",
+    "Ambition 2": "100% electrified vehicles in passenger LDV sales by 2035"
+  },
+  {
+    "Country": "India",
+    "Ambition 1": "2 877 charging stations in 25 states and 1 576 charging stations across 9 expressways and 16 highways",
+    "Ambition 2": "Charging stations every 40 - 60 km on national highways or 700 charging stations by 2023 covering 35 000 - 40 000 km of national highways",
+    "Legislation 1": "Corporate average fuel economy standard: 4.77 L/100 km (NEDC) in 2022 for passenger LDVs",
+    "Legislation 2": "CO2 emissions standard: equivalent to corporate average fuel economy of 113 g CO2/km for passenger LDVs in 2022",
+    "Ambition 3": "30% share of EVs in passenger LDV sales by 2030"
+  },
+  {
+    "Country": "Germany",
+    "Ambition 1": "50 000 EV charging stations (20 000 of which are fast chargers) by 2025",
+    "Ambition 2": "1 million EV charging stations by 2030",
+    "Ambition 3": "50% share of electric urban buses by 2030",
+    "Ambition 4": "15 million EVs on the road by 2030"
+  },
+  {
+    "Country": "Brazil",
+    "Legislation 1": "Senate Bill No. 454/2017 aims to ban the sale of fossil fuel-powered cars by 2060",
+    "Ambition 1": "600 000 EV stock across all modes by 2030"
+  },
+  {
+    "Country": "South Korea",
+    "Ambition 1": "430 000 charging stations in residential apartments, 146 000 charging stations in commercial areas and 12 000 fast chargers along highways by 2025",
+    "Ambition 2": "40 000 FCEV urban bus stock and 30 000 FCEV truck stock by 2040",
+    "Ambition 3": "Production of 81 000 passenger FCEVs by 2022, 100 000 by 2025 and 6.2 million by 2040 (3.3 million for export and 2.9 million for domestic use)",
+    "Target 1": "1.13 million passenger BEV and 200 000 passenger FCEV stock by 2025",
+    "Ambition 4": "80 000 FCEV taxi stock by 2040",
+    "Ambition 5": "51% share of EVs in new vehicle sales by 2025 and 83% by 2030",
+    "Ambition 6": "Reach total cost of ownership-parity with ICEs by 2025 for EVs and by 2030 for FCEVs"
+  },
+  {
+    "Country": "Russia"
+  },
+  {
+    "Country": "France",
+    "Target 1": "100 000 public EV charging points by 31 December 2023",
+    "Target 2": "7 million public and private EV charging stations by 2030",
+    "Ambition 1": "200 heavy commercial FCEV stock by 2023. Ambition: 800 - 2 200 heavy commercial FCEV stock by 2028",
+    "Target 3": "500 000 passenger PHEVs, 660 000 passenger BEVs and FCEVs, and 170 000 light commercial BEV and FCEV stock by 2023. Target: 1.8 million passenger PHEVs, 3 million passenger BEVs and FCEVs, and 500 000 light commercial BEV and FCEV stock by 2028",
+    "Ambition 2": "Domestic production of 2 million electric and hybrid cars by 2030"
+  },
+  {
+    "Country": "UK",
+    "Ambition 1": "300 000 public charging stations by 2030",
+    "Ambition 2": "30% of ZEVs in new truck and bus sales by 2030, 100% by 2040",
+    "Ambition 3": "Support the uptake of at least an additional 4 000 ZEV buses",
+    "Ambition 4": "Phase out the sale of new small petrol and diesel trucks by 2035 and larger trucks (>26 tonnes) by 2040",
+    "Ambition 5": "Phase out petrol and diesel passenger LDV sales by 2030. All sales of passenger LDVs to be BEVs or FCEVs by 2035",
+    "Ambition 6": "Government car and van fleet to be 100% ZEV by 2027. Proposal: introduce a new road vehicle CO2 emissions regulatory regime in 2024",
+    "Legislation 1": "Proposal: introduce a ZEV mandate to set targets for a percentage of manufacturers’ new car and van sales to be ZEVs each year from 2024"
+  },
+  {
+    "Country": "Canada",
+    "Target 1": "Add 50 000 charging and hydrogen stations to the charging network",
+    "Legislation 1": "Standard to reduce CO2 emissions from HDVs by 5-27% in 2027 (depending on vehicle category and weight) relative to 2017. (This aligns with the Phase 2 standard in the United States.) The Phase 2 CO2 emission standard is 432 - 627 g CO2 per brake horsepower-hour for tractors, vocational vehicles and spark ignition engines, and 48.3 - 413 g CO2/ton-mile for other heavy commercial vehicles by 2027. Proposed changes to MY 2027 would result in a more stringent standard, reducing CO2 emissions by an additional 1.5% compared to the original standard in 2027 for vocational vehicles and day cab tractors and to create new CO2 emissions standard for MY 2030",
+    "Ambition 1": "Purchase 5 000 ZEV public transit and school buses in the period to 2026",
+    "Target 2": "20% ZEV LDV sales by 2026, 60% by 2030 and 100% by 2035",
+    "Legislation 2": "Standards to reduce GHG emissions from LDVs by 1.5% per year from model year (MY 2021/2022; 10% for MY 2022/2023; 5% for MY 2023/2024 and 6.6% for MY 2025/2026. (These standards align with those in the United States)",
+    "Legislation 3": "Corporate Average Fuel Economy (CAFE) standard: improve the fleet average fuel economy of LDVs by 1.5% for MY 2022/2023, 8% for MY 2024/2025 and by 10% for MY 2026. (These align with the CAFE standards in the United States)",
+    "Target 3": "35% ZEV M/HDV sales by 2030, 100% by 2040 (for a subset of vehicle types based on feasibility)",
+    "Ambition 2": "30% of ZEVs in new truck and bus sales by 2030, 100% by 2040"
+  },
+  {
+    "Country": "Italy",
+    "Target 1": "21 400 fast and ultra-fast charging stations by the end of 2025 (7 500 on motorways or extra-urban areas, 13 755 in urban centres and 100 experimental chargers with energy storage technology)",
+    "Target 2": "6 million passenger electric LDV stock (including 4 million BEVs) by 2030",
+    "Target 3": "Electric cars to account for 6% of gross final energy consumption to come from electric cars in 2030",
+    "Legislation 1": "Proposal: mandatory purchase by public bodies of 30% share of alternative fuel vehicles (ZEV and methane vehicles) by 2022, 50% by 2025 and 85% by 2030 across all modes"
+  },
+  {
+    "Country": "Australia",
+    "Ambition 1": "Deploy EV charging stations in over 400 businesses, 50 000 households as well as access to 1 000 public fast charging stations"
+  },
+  {
+    "Country": "Mexico"
+  },
+  {
+    "Country": "Indonesia",
+    "Target 1": "30 000 charging stations and 67 000 battery swap stations by 2030",
+    "Target 2": "2 million passenger EVs and 13 million electric motorcycles by 2030",
+    "Ambition 1": "Production of 600 000 EVs and 2.45 million electric two-wheelers by 2030",
+    "Ambition 2": "Proposed Ambition: 100% EV cars and 2W sales by 2050"
+  },
+  {
+    "Country": "Iran"
+  },
+  {
+    "Country": "Spain",
+    "Target 1": "500 000 EV charging stations in 2030",
+    "Target 2": "5 million electric LDVs, buses and two/three-wheelers in 2030"
+  },
+  {
+    "Country": "Turkey",
+    "Ambition 1": "30% of ZEVs in new truck and bus sales by 2030, 100% by 2040"
+  },
+  {
+    "Country": "Thailand",
+    "Ambition 1": "12 000 public fast charging stations by 2030 and 1 450 battery swapping stations for electric motorcycles by 2030",
+    "Ambition 2": "1.2 million passenger EV stock by 2036",
+    "Ambition 3": "100% share of ZEVs in new car sales by 2035. Ambition: 30% share of ZEVs in domestic LDV production by 2030, 50% by 2035. Ambition: 35% share of ZEVs in domestic bus production by 2025, 50% by 2030 and 85% by 2035",
+    "Ambition 4": "Production of 250 000 EVs, 3 000 electric buses and 53 000 motorcycles by 2025"
+  },
+  {
+    "Country": "Saudi Arabia"
+  }
+]
