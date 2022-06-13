@@ -6,6 +6,11 @@ import { userStoreContext } from "../store/StoreContexts";
 
 export type Metrics = "ELECTRICITY" | "GAS" | "DIESEL";
 
+export type MetricDomain = {
+  min: string;
+  max: string;
+};
+
 export type Demographic = {
   displayText: string;
   metric: Metrics;
@@ -34,7 +39,7 @@ const DemographicSelector: FunctionComponent = () => {
               className="mx-1"
               onClick={() => clickHandler(option.metric)}
               variant={
-                userStore.selectedMetric == option.metric
+                userStore.selectedMetric === option.metric
                   ? "primary"
                   : "secondary"
               }
@@ -44,6 +49,10 @@ const DemographicSelector: FunctionComponent = () => {
           );
         })}
       </div>
+      <p className="text-end mt-3">
+        Min value: {userStore.selectedMetricDomain.min} Max value:{" "}
+        {userStore.selectedMetricDomain.max}
+      </p>
     </div>
   );
 };
