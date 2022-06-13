@@ -1,0 +1,160 @@
+[
+  {
+    "country": "New Zealand",
+    "top 5": [
+      "Tesla Model 3",
+      "MG ZS EV",
+      "Hyundai Kona",
+      "Hyundai ioniq",
+      "Hyundai IONIQ 5"
+    ]
+  },
+  {
+    "country": "China",
+    "top 5": [
+      "Wuling Hongguang Mini EV",
+      "Tesla Model 3",
+      "Tesla Model Y",
+      "BYD Qin Plus",
+      "BYD Han"
+    ]
+  },
+  {
+    "country": "United States of America",
+    "top 5": [
+      "Tesla Model Y",
+      "Tesla Model 3",
+      "FORD MUSTANG MACH-E",
+      "CHEVROLET BOLT EV",
+      "VOLKSWAGEN ID.4"
+    ]
+  },
+  {
+    "country": "India",
+    "top 5": [
+      "Tata Nexon EV",
+      "MG ZS EV",
+      "Tata Tigor EV",
+      "Hyundai Kona",
+      "Mahindra Verito EV"
+    ]
+  },
+  {
+    "country": "India",
+    "top 5": [
+      "Tata Nexon EV",
+      "MG ZS EV",
+      "Tata Tigor EV",
+      "Hyundai Kona",
+      "Mahindra Verito EV"
+    ]
+  },
+  {
+    "country": "Germany",
+    "top 5": [
+      "Tesla Model 3",
+      "Volkswagen e-up!",
+      "Volkswagen ID.3",
+      "Renault ZOE",
+      "smart fortwo EQ"
+    ]
+  },
+  {
+    "country": "Brazil",
+    "top 5": [
+      "Porsche Taycan",
+      "Nissan Leaf",
+      "Audi e-Tron",
+      "BMW i3",
+      "Renault Zoe"
+    ]
+  },
+  {
+    "country": "South Korea",
+    "top 5": ["Tesla Model 3", "Hyundai Ioniq 5", "Tesla Model Y"]
+  },
+  {
+    "country": "France",
+    "top 5": ["Tesla Model 3", "Renault ZOE", "Peugeot e-208"]
+  },
+  {
+    "country": "United Kingdom",
+    "top 5": [
+      "Tesla Model 3",
+      "Kia e-Niro",
+      "Volkswagen ID.3",
+      "Nissan Leaf",
+      "Audi e-Tron"
+    ]
+  },
+  {
+    "country": "Canada",
+    "top 5": [
+      "Tesla Model 3",
+      "Hyundai Kona",
+      "Tesla Model Y",
+      "Chevrolet Bolt EV",
+      "Ford Mustang Mach-E"
+    ]
+  },
+  {
+    "country": "Italy",
+    "top 5": [
+      "Fiat 500e",
+      "Smart ForTwo",
+      "Renault Twingo ZE",
+      "Dacia Spring",
+      "Tesla Model 3"
+    ]
+  },
+  {
+    "country": "Australia",
+    "top 5": [
+      "Tesla Model 3",
+      "MG ZS EV",
+      "Porsche Taycan",
+      "Hyundai Kona",
+      "Hyundai Ioniq"
+    ]
+  },
+  {
+    "country": "Indonesia",
+    "top 5": [
+      "Hyundai Kona",
+      "Hyundai Ioniq",
+      "Nissan Leaf",
+      "Lexus UX 300e",
+      "Toyota Coms EV"
+    ]
+  },
+  {
+    "country": "Turkey",
+    "top 5": [
+      "Renault Zoe",
+      "BMW iX3",
+      "Porsche Taycan",
+      "Mercedes-Benz EQC",
+      "BMW iX"
+    ]
+  },
+  {
+    "country": "Thailand",
+    "top 5": [
+      "MG ZS EV",
+      "Tesla Model 3",
+      "Porsche Taycan",
+      "FOMM One",
+      "Mini Cooper SE"
+    ]
+  },
+  {
+    "country": "Thailand",
+    "top 5": [
+      "MG ZS EV",
+      "Tesla Model 3",
+      "Porsche Taycan",
+      "FOMM One",
+      "Mini Cooper SE"
+    ]
+  }
+]
