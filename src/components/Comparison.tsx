@@ -1,5 +1,5 @@
 import { FunctionComponent, useContext } from "react";
-import { Button } from "react-bootstrap";
+import { Button, ButtonGroup } from "react-bootstrap";
 import { observer } from "mobx-react-lite";
 
 import { userStoreContext } from "../store/StoreContexts";
@@ -50,85 +50,93 @@ const Comparison: FunctionComponent = () => {
     });
 
   return (
-    <div className="mx-5 bg-light p-4 rounded horiziontal-scrollable">
+    <div className="mx-5 my-5 bg-light p-4 rounded horiziontal-scrollable">
       <div className="mx-auto text-center">
         <p>BEVs sold as a percentage of new vehicles in 2021</p>
-        {evSales.map((tuple) => (
-          <Button
-            className="d-inline-flex mx-1"
-            onClick={() => clickHandler(tuple.countryName)}
-            variant={
-              userStore.selectedCountry === tuple.countryName
-                ? "primary"
-                : "secondary"
-            }
-          >
-            {tuple.percentage as any}%{" "}
-          </Button>
-        ))}
+        <ButtonGroup>
+          {evSales.map((tuple) => (
+            <Button
+              onClick={() => clickHandler(tuple.countryName)}
+              onMouseEnter={() => clickHandler(tuple.countryName)}
+              variant={
+                userStore.selectedCountry === tuple.countryName
+                  ? "primary"
+                  : "secondary"
+              }
+            >
+              {tuple.percentage as any}%{" "}
+            </Button>
+          ))}
+        </ButtonGroup>
       </div>
 
       <div className="mx-auto my-3 text-center">
         <p>Diesel prices in 2021</p>
-        {dieselPrices
-          .filter((country) =>
-            Object.keys(evSalesData).includes(country.countryName)
-          )
-          .map((tuple) => (
-            <Button
-              className="d-inline-flex mx-1"
-              onClick={() => clickHandler(tuple.countryName)}
-              variant={
-                userStore.selectedCountry === tuple.countryName
-                  ? "primary"
-                  : "secondary"
-              }
-            >
-              ${tuple.price as any}{" "}
-            </Button>
-          ))}
+        <ButtonGroup>
+          {dieselPrices
+            .filter((country) =>
+              Object.keys(evSalesData).includes(country.countryName)
+            )
+            .map((tuple) => (
+              <Button
+                onClick={() => clickHandler(tuple.countryName)}
+                onMouseEnter={() => clickHandler(tuple.countryName)}
+                variant={
+                  userStore.selectedCountry === tuple.countryName
+                    ? "primary"
+                    : "secondary"
+                }
+              >
+                ${tuple.price as any}{" "}
+              </Button>
+            ))}
+        </ButtonGroup>
       </div>
 
       <div className="mx-auto my-3 text-center">
         <p>Gasoline prices in 2021 (in USD)</p>
-        {gasPrices
-          .filter((country) =>
-            Object.keys(evSalesData).includes(country.countryName)
-          )
-          .map((tuple) => (
-            <Button
-              className="d-inline-flex mx-1"
-              onClick={() => clickHandler(tuple.countryName)}
-              variant={
-                userStore.selectedCountry === tuple.countryName
-                  ? "primary"
-                  : "secondary"
-              }
-            >
-              ${tuple.price as any}{" "}
-            </Button>
-          ))}
+        <ButtonGroup>
+          {gasPrices
+            .filter((country) =>
+              Object.keys(evSalesData).includes(country.countryName)
+            )
+            .map((tuple) => (
+              <Button
+                onClick={() => clickHandler(tuple.countryName)}
+                onMouseEnter={() => clickHandler(tuple.countryName)}
+                variant={
+                  userStore.selectedCountry === tuple.countryName
+                    ? "primary"
+                    : "secondary"
+                }
+              >
+                ${tuple.price as any}{" "}
+              </Button>
+            ))}
+        </ButtonGroup>
       </div>
 
       <div className="mx-auto my-3 text-center">
         <p>Electricity prices in 2021 per kW/h (in USD)</p>
-        {electricityPrices
-          .filter((country) =>
-            Object.keys(evSalesData).includes(country.countryName)
-          )
-          .map((tuple) => (
-            <Button
-              className="d-inline-flex mx-1"
-              onClick={() => clickHandler(tuple.countryName)}
-              variant={
-                userStore.selectedCountry === tuple.countryName
-                  ? "primary"
-                  : "secondary"
-              }
-            >
-              ${tuple.price as any}{" "}
-            </Button>
-          ))}
+        <ButtonGroup>
+          {electricityPrices
+            .filter((country) =>
+              Object.keys(evSalesData).includes(country.countryName)
+            )
+            .map((tuple) => (
+              <Button
+                onClick={() => clickHandler(tuple.countryName)}
+                onMouseEnter={() => clickHandler(tuple.countryName)}
+                variant={
+                  userStore.selectedCountry === tuple.countryName
+                    ? "primary"
+                    : "secondary"
+                }
+              >
+                ${tuple.price as any}{" "}
+              </Button>
+            ))}
+        </ButtonGroup>
       </div>
     </div>
   );
