@@ -13,7 +13,6 @@ const Comparison: FunctionComponent = () => {
   const userStore = useContext(userStoreContext);
 
   const clickHandler = (countryName: any) => {
-    console.log(countryName as string);
     userStore.selectCountry(countryName as string);
   };
 

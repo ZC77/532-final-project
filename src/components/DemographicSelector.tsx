@@ -4,7 +4,7 @@ import { observer } from "mobx-react-lite";
 
 import { userStoreContext } from "../store/StoreContexts";
 
-export type Metrics = "ELECTRICITY" | "GAS" | "DIESEL";
+export type Metrics = "ELECTRICITY" | "GAS" | "DIESEL" | "EV_ADOPTION";
 
 export type MetricDomain = {
   min: string;
@@ -20,6 +20,7 @@ const options: Demographic[] = [
   { displayText: "Electricity Price", metric: "ELECTRICITY" },
   { displayText: "Gasoline Price", metric: "GAS" },
   { displayText: "Diesel Price", metric: "DIESEL" },
+  { displayText: "EV Sales Percentage", metric: "EV_ADOPTION" },
 ];
 
 const DemographicSelector: FunctionComponent = () => {
