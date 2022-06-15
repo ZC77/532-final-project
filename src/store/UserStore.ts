@@ -1,4 +1,4 @@
-import { makeAutoObservable } from "mobx";
+import { makeAutoObservable, runInAction } from "mobx";
 import { Demographic } from "../components/DemographicSelector";
 import { Metrics, MetricDomain } from "../components/DemographicSelector";
 
@@ -15,17 +15,23 @@ export default class UserStore {
   }
 
   selectCountry(country: string) {
-    this.selectedCountry = country;
+    runInAction(() => {
+      this.selectedCountry = country;
+    });
   }
 
   selectMetric(metric: Metrics) {
-    this.selectedMetric = metric;
+    runInAction(() => {
+      this.selectedMetric = metric;
+    });
   }
 
   setMetricDomain(min: string, max: string) {
-    this.selectedMetricDomain = {
-      min,
-      max,
-    };
+    runInAction(() => {
+      this.selectedMetricDomain = {
+        min,
+        max,
+      };
+    });
   }
 }

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import WorldMap from "./screens/WorldMap";
 import DemographicSelector from "./components/DemographicSelector";
+import Comparison from "./components/Comparison";
 
 function App() {
   const [content, setContent] = useState("");
@@ -15,6 +16,7 @@ function App() {
         <ReactTooltip>{content}</ReactTooltip>
       </div>
       <DemographicSelector></DemographicSelector>
+      <Comparison></Comparison>
     </div>
   );
 }
